@@ -1,0 +1,249 @@
+/* general styling starts */
+html, body {
+				font-family: 'Montserrat', sans-serif;
+				background: #808080;
+				margin: 0;
+				padding: 0;
+				}
+
+#container {
+				fixed-width: 100%;
+				overflow: hidden;
+				position: relative;
+}
+/*header style starts*/
+header {
+				position: fixed;
+				background: #333;
+				min-height: 70px;
+				border-bottom: 2px  solid #f8f9f9;
+				width: 100%;
+				z-index: 5;
+}
+
+.logo {
+				float: left;
+				font-size: 15px;
+				padding-left: 20px;
+				color: #808080;
+}
+
+.logo h1 {
+				font-weight: lighter;	
+}
+
+.al {
+	font-weight: bold;
+	color: #fff;
+}
+
+.link-icon {
+	color: #ff7200;
+}
+
+.nav-bar {
+				float: right;
+				display: inline-block;
+				position: relative;
+				z-index: 5;
+				}
+				
+.nav-btn {
+				font-size: 10px;
+				font-weight: bold;
+				border-radius: 20px;
+				margin: 20px;
+				padding: 10px;
+				text-align: center;
+				background: #808080;
+				border: none;
+				width:75px;
+				color: #f8f9f9;
+				}
+				
+.btn-content {
+				position: absolute;
+				background: #fff;
+				width: 100%;
+				box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px, rgba(0,0,0,0.22);
+				height: 0px;
+				transition: height 1s;
+				overflow: auto;
+				}
+				
+.nav-bar:hover > .btn-content {
+				height: 150px;
+				}
+				
+.btn-content > a {
+				display: block;
+				padding: 15px;
+				text-decoration: none;
+				color: #000;
+				}
+/*header style ends*/
+
+/*search styling starts*/
+.search-area {
+	text-align: left;
+ background: #e0e0e0;
+ position: relative;
+ bottom: -80px;
+ width: 95%;
+ height: auto;
+ margin-bottom: 100px;
+ border-radius: 0 50px 50px 0;
+ box-shadow: 5px 5px 3px #686868;
+}
+
+.search-box {
+		padding: 20px 0 20px 10px;
+}
+
+.search-field {
+				height: 40px;
+				width: 200px;
+				margin-left: 10px;
+				padding: 0 20px 0 20px;
+				border:0;
+				border-radius:25px;
+				outline:none;
+}
+				
+.search-btn {
+ height:30px;
+ background:#ff7200;
+ padding-left: 20px;
+ padding-right:20px;
+ color:#fff;
+ transition-duration: 1s;
+}
+
+.search-btn: hover{
+ background-color: #f8f9f9;
+ color: rgb(23, 52, 89);
+ box-shadow: 1px 1px 2px 3px #000000;
+ cursor: pointer;
+}
+
+/*search styling ends*/
+
+/*searched category style starts*/
+.searched-category {
+		  position: relative ;
+				width: 100%;
+				height: auto ;
+				margin: 30px 0 0 20px;
+}
+.searched-category h4 {
+	color: #000;
+	text-align: left;
+}
+
+.searched {
+	background: #e0e0e0;
+	height: auto;
+	margin-bottom: 10px;
+	position: relative;
+	top: -20px;
+	box-shadow: 5px 5px 3px #686868;
+}
+
+img {
+		width: 50%;
+		position: relative;
+}
+
+.search-desc {
+		float: right;
+		text-align: left;
+		position: relative;
+		padding-right: 25px;
+		top: -10px;
+		font-size: 13px;
+		line-spacing: 150px;
+}
+
+.purchase-btn {
+				font-size: 10px;
+				font-weight: bold;
+				border-radius: 15px;
+				padding: 10px 20px 20px 20px;
+				top: -10px;
+				text-align: center;
+				background: #333;
+				border: none;
+				height: 10px;
+				width: 75px;
+				color: #ff7200;
+}
+
+/*searched category style ends*/
+	/* Newsletter */
+.newsletter {
+  color:#fff;
+  font-weight: lighter;
+  background:#333;
+	height: auto;
+	width: 95%;
+	position: relative;
+	margin-top: 10px;
+	border-radius: 0 50px 50px 0;
+	box-shadow: 5px 5px 3px #686868;
+	font-size: 80%;
+}
+
+.newsletter-content {
+	padding: 10px 10px 0 20px;
+}
+.newsletter h1{
+				font-weight: bold;
+				font-size: 150%;
+}
+
+.sub {
+				color: #ff7200;
+}
+
+.newsletter p {
+				font-spacing: 150%;
+				position: relative ;
+				top: -10px;
+}
+
+.sub-field {
+				height:35px;
+				width: 200px;
+				padding: 0 20px 0 20px;
+				border-radius: 20px;
+				outline:none;
+				border: none;
+}
+
+.button_1 {
+				font-size: 10px;
+				font-weight: bold;
+				border-radius: 15px;
+				margin: 20px;
+				padding: 10px;
+				text-align: center;
+				background: #808080;
+				border: none;
+				width:70px;
+				color: #e0e0e0;
+}
+/*footer styling starts */
+footer {
+				position: absolute;
+				height: auto;
+				width: 100%;
+				background: #111;
+				margin-top:10px;
+				padding: 10px;
+				}
+.footer-copyright {
+				text-align: center;
+				padding: 10px;
+				color: #808080; /* position the copyright at the bottom of the footer */
+				}
+/*footer styling ends */
